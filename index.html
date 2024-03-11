@@ -1,51 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Practika2</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 750px;
-            height: 350px;
-            margin: 0px auto;
-        }
-    </style>
     <script src="main.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            new Slider(document.querySelector('.carousel'));
-        });
-    </script>
 </head>
 <body>
     <div class="container">
         <div class="carousel">
-            <div class="carousel-window">
-                <div class="carousel-slides">
-                    <div class="carousel-item">
+            <div class="carousel_window">
+                <div class="carousel_slides">
+                    <div class="carousel_item">
                         <img src="img/slider1.png" alt="">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel_item">
                         <img src="img/slider2.png" alt="">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel_item">
                         <img src="img/slider3.png" alt="">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel_item">
                         <img src="img/slider4.png" alt="">
                     </div>
                 </div>
             </div>
-            <a href="#" class="carousel-prev">
-                <div class="carousel-prev-icon">
+            <a href="#" class="carousel_prev">
+                <div class="carousel_prev_icon">
                     <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <defs>
                             <clipPath id="clip381_267">
@@ -58,8 +40,8 @@
                     </svg>
                 </div>                
             </a>
-            <a href="#" class="carousel-next">
-                <div class="carousel-prev-icon">
+            <a href="#" class="carousel_next">
+                <div class="carousel_prev_icon">
                     <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <defs>
                             <clipPath id="clip381_267">
@@ -72,12 +54,6 @@
                     </svg>   
                 </div>
             </a>
-            <!-- <a href="#" class="carousel-prev">
-                <span class="carousel-prev-icon">&lt;</span>
-            </a>
-            <a href="#" class="carousel-next">
-                <span class="carousel-next-icon">&gt;</span>
-            </a> -->
         </div>
     </div>
 </body>
