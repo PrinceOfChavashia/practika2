@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practika2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 750px;
+            height: 350px;
+            margin: 0px auto;
+        }
+    </style>
+    <script src="main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            new Slider(document.querySelector('.carousel'));
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="carousel">
+            <div class="carousel-window">
+                <div class="carousel-slides">
+                    <div class="carousel-item">
+                        <img src="img/slider1.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slider2.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slider3.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slider4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="carousel-prev">
+                <div class="carousel-prev-icon">
+                    <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <clipPath id="clip381_267">
+                                <rect id="Arrows / Chevron Right 1 - 24px" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+                            </clipPath>
+                        </defs>
+                        <g clip-path="url(#clip381_267)">
+                            <path id="Icon" d="M6.91077 4.41113C7.23621 4.08594 7.76392 4.08594 8.08936 4.41113L13.0894 9.41113C13.4148 9.73633 13.4148 10.2637 13.0894 10.5898L8.08936 15.5898C7.76392 15.915 7.23621 15.915 6.91077 15.5898C6.58545 15.2637 6.58545 14.7363 6.91077 14.4111L11.3215 10L6.91077 5.58984C6.58545 5.26367 6.58545 4.73633 6.91077 4.41113Z" fill="#2A3D48" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        </g>
+                    </svg>
+                </div>                
+            </a>
+            <a href="#" class="carousel-next">
+                <div class="carousel-prev-icon">
+                    <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <clipPath id="clip381_267">
+                                <rect id="Arrows / Chevron Right 1 - 24px" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+                            </clipPath>
+                        </defs>
+                        <g clip-path="url(#clip381_267)">
+                            <path id="Icon" d="M6.91077 4.41113C7.23621 4.08594 7.76392 4.08594 8.08936 4.41113L13.0894 9.41113C13.4148 9.73633 13.4148 10.2637 13.0894 10.5898L8.08936 15.5898C7.76392 15.915 7.23621 15.915 6.91077 15.5898C6.58545 15.2637 6.58545 14.7363 6.91077 14.4111L11.3215 10L6.91077 5.58984C6.58545 5.26367 6.58545 4.73633 6.91077 4.41113Z" fill="#2A3D48" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        </g>
+                    </svg>   
+                </div>
+            </a>
+            <!-- <a href="#" class="carousel-prev">
+                <span class="carousel-prev-icon">&lt;</span>
+            </a>
+            <a href="#" class="carousel-next">
+                <span class="carousel-next-icon">&gt;</span>
+            </a> -->
+        </div>
+    </div>
+</body>
+</html>

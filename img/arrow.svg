@@ -1,0 +1,10 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<clipPath id="clip381_267">
+			<rect id="Arrows / Chevron Right 1 - 24px" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip381_267)">
+		<path id="Icon" d="M6.91077 4.41113C7.23621 4.08594 7.76392 4.08594 8.08936 4.41113L13.0894 9.41113C13.4148 9.73633 13.4148 10.2637 13.0894 10.5898L8.08936 15.5898C7.76392 15.915 7.23621 15.915 6.91077 15.5898C6.58545 15.2637 6.58545 14.7363 6.91077 14.4111L11.3215 10L6.91077 5.58984C6.58545 5.26367 6.58545 4.73633 6.91077 4.41113Z" fill="#2A3D48" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
